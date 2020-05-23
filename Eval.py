@@ -156,8 +156,6 @@ def main():
     v_1 = value0*l_01 + (oneminusb0*(value1*l_11 + oneminusb1*l_21))
     dec_v0 = he.decryptInt(v_0)
     dec_v1 = he.decryptInt(v_1)
-    print(dec_v0)
-    print(dec_v1)
 
     label = dec_v0 + 2*(dec_v1)
     print("The label value is:", label)
